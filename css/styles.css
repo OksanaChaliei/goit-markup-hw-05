@@ -738,9 +738,10 @@ transition: fill 250ms ease-in-out;
 .visually-hidden:checked+label .checkbox-span {
     background-color: var(--checked-bg);
     border: none;
-}
-.visually-hidden:checked+label .checkbox-span .checkbox-icon {
     fill: var(--checked-fill);
+}
+.visually-hidden:checked+label .checkbox-icon {
+fill: var(--checked-fill);
 }
 
 .modallink {
